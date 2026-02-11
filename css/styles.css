@@ -84,8 +84,8 @@ button {
 }
 
 #noBtn {
-  background-color: #ccc;
-  color: #555;
+  background-color: #febf4e;
+  color: white;
   position: absolute; /* Crucial for movement */
 }
 
@@ -117,3 +117,4 @@ button {
     transform: scale(1);
   }
 }
+
