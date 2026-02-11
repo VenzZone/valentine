@@ -19,13 +19,22 @@ body {
 
 .container {
   text-align: center;
-  background: white;
+  background: rgba(255, 255, 255, 0.5); /* 50% opacity */
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   max-width: 350px;
   width: 85%;
   z-index: 10;
+}
+
+/* 📱 Phone mode */
+@media (max-width: 480px) {
+  .container {
+    padding: 40px 20px; /* more vertical + safe side spacing */
+    width: 92%; /* more margin from screen edge */
+    border-radius: 18px; /* optional softer radius */
+  }
 }
 
 /* Instax Style Photo Frame */
