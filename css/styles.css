@@ -32,7 +32,7 @@ body {
 @media (max-width: 480px) {
   .container {
     padding: 40px 20px; /* more vertical + safe side spacing */
-    width: 92%; /* more margin from screen edge */
+    width: 85%; /* more margin from screen edge */
     border-radius: 18px; /* optional softer radius */
   }
 }
